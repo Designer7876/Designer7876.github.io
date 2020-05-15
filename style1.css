@@ -102,4 +102,7 @@ th{
 	font-size: 25px;
 	text-align: center;
 }
+figure{
+	display: inline-block;
+}
 
