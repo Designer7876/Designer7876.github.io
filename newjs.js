@@ -11,12 +11,10 @@ function kamehameha() {
     	}
     	else{
     		alert("You are now logged in!");
-    		document.getElementById("trial").innerHTML = "Welcome, you have logged in!";
     	}
    	}
    	else{
     	   	alert("You are now logged in!");
-    	   	document.getElementById("trial").innerHTML = "Welcome, you have logged in!";   	
 	}
 
 }
