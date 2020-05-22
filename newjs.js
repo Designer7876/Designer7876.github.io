@@ -1,5 +1,4 @@
 function kamehameha() {
-	var win = window.open("", "_self");
 	var pass;
 	pass = prompt("Enter your password");
     if(pass != "kamehameha"){
@@ -7,7 +6,8 @@ function kamehameha() {
     	pass = prompt("Enter password: ");
     	if(pass != "kamehameha"){
     		alert("2 attempts over. Bye!");
-    		window.close();
+		window.open("about:blank", "_self");
+    		// window.close();
     	}
     	else{
     		alert("You are now logged in!");
