@@ -7,7 +7,7 @@ function kamehameha() {
     	pass = prompt("Enter password: ");
     	if(pass != "kamehameha"){
     		alert("2 attempts over. Bye!");
-    		win.close();
+    		window.close();
     	}
     	else{
     		alert("You are now logged in!");
