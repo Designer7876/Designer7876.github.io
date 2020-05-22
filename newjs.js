@@ -1,5 +1,5 @@
 function kamehameha() {
-	var win = window.open("target:_blank", "_self");
+	var win = window.open("", "_self");
 	var pass;
 	pass = prompt("Enter your password");
     if(pass != "kamehameha"){
